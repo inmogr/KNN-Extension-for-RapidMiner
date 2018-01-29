@@ -1,0 +1,35 @@
+Manifest-Version: 1.0
+Created-By: RapidMiner GmbH
+Specification-Version: 1.0.0
+Specification-Vendor: RapidMiner GmbH
+Implementation-Version: 1.0.0
+Implementation-Vendor: Morhaf Shamia
+Implementation-Title: TravelSalesManIIUM
+Implementation-URL: www.iium.edu.my
+Specification-Title: TravelSalesManIIUM
+RapidMiner-Version: 7.0.0
+RapidMiner-Type: RapidMiner_Extension
+Plugin-Dependencies: 
+Extension-ID: rmx_travelsalesmaniium
+Namespace: travelsalesmaniium
+Initialization-Class: my.edu.iium.extension.PluginInitTravelSalesManII
+ UM
+IOObject-Descriptor: my/edu/iium/extension/resources/ioobjectsTravelSa
+ lesManIIUM.xml
+Operator-Descriptor: my/edu/iium/extension/resources/OperatorsTravelSa
+ lesManIIUM.xml
+ParseRule-Descriptor: my/edu/iium/extension/resources/parserulesTravel
+ SalesManIIUM.xml
+Group-Descriptor: my/edu/iium/extension/resources/groupsTravelSalesMan
+ IIUM.properties
+Error-Descriptor: my/edu/iium/extension/resources/i18n/ErrorsTravelSal
+ esManIIUM.properties
+UserError-Descriptor: my/edu/iium/extension/resources/i18n/UserErrorMe
+ ssagesTravelSalesManIIUM.properties
+GUI-Descriptor: my/edu/iium/extension/resources/i18n/GUITravelSalesMan
+ IIUM.properties
+Settings-Descriptor: my/edu/iium/extension/resources/i18n/SettingsTrav
+ elSalesManIIUM.properties
+SettingsStructure-Descriptor: my/edu/iium/extension/resources/settings
+ TravelSalesManIIUM.xml
+
